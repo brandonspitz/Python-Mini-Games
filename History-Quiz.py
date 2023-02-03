@@ -53,7 +53,7 @@ else:
     print('Incorrect :(')
     
 answer = input("7. What myth seems to be prevelant in many ancient religions' genisis stories? ")
-if answer.lower() == "flood":
+if answer.lower() == "the flood":
     print('Correct! Flood myths can be seen in many European, Asian, and African religions')
     count += 1
 else:

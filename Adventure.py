@@ -3,7 +3,7 @@ import random
 name = input("What is your name? ")
 print("Welcome to Egypt", name)
 
-answer1 = input("While on an exotic vacation, you hear a strange noise coming for the desert. Do you investigate? (Yes or No) ").lower()
+answer1 = input("While on an exotic vacation, you hear a strange noise coming from the desert. Do you investigate? (Yes or No) ").lower()
 
 if answer1 == "yes":
     answer2 = input("You hear whispers, but you cannot identify where they are coming from and a sandstorm is settling in. Go left or right? ").lower()
@@ -25,7 +25,7 @@ if answer1 == "yes":
             print('You find the remains of an explorer that came before you. He is carrying a key and a note that reads: "Check behind"')
             answer6 = input("You make your way back, but you find yourself lost in a dark maze. The whispers grow louder. Investigate? (Yes or No) ").lower()
             if answer6 == "no":
-                answer7 = input("A dim light guides you away from the whispers. You stumble across a a glowing golden idol. Remembering the note, you check behind the pedestal and find a keyhole. Use your key? (Yes or No) ").lower()
+                answer7 = input("A dim light guides you away from the whispers. You stumble across a glowing golden idol. Remembering the note, you check behind the pedestal and find a keyhole. Use your key? (Yes or No) ").lower()
                 if answer7 == "yes":
                     answer8 = input("You hear a click followed by silence. You take the idol and bolt towards the exit. You hear the whispers catching up behind you. Turn around and look? (Yes or No) ").lower()
                     if answer8 == "no":
